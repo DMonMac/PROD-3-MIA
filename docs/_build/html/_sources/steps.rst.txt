@@ -1,25 +1,48 @@
-This is a Title
-===============
-That has a paragraph about a main subject and is set when the '='
-is at least the same length of the title itself.
+STEPS
+======
 
-Subject Subtitle
-----------------
-Subtitles are set with '-' and are required to have the same length
-of the subtitle itself, just like titles.
+1. Click the `ALL` icon on the upper-left section of the navbar
+---------------------------------------------------------------------------
 
-Lists can be unnumbered like:
+The icon can be seen from the main page.
 
- * Item Foo
- * Item Bar
+.. image:: _static/step01.png
 
-Or automatically numbered:
+2. Go to PIM
+---------------
 
- #. Item 1
- #. Item 2
+Once the `ALL` icon is clicked, there should be additional tabs below the navbar, including the **PIM** tab.
 
-Inline Markup
--------------
-Words can have *emphasis in italics* or be **bold** and you can define
-code samples with back quotes, like when you talk about a command: ``sudo``
-gives you super user powers!
+.. image:: _static/step02.png
+
+3. Click on the '+' icon and select SINGLE ARTICLE
+-----------------------------------------------------
+.. image:: _static/step03.png
+
+4. Give it a name and fill some information
+----------------------------------------------
+.. image:: _static/step04.png
+
+5. Go to the relationship tab to add an image
+------------------------------------------------
+.. image:: _static/step05.png
+
+6. Click on the plus icon to add an image
+--------------------------------------------
+.. image:: _static/step06.png
+
+7. Select the image and click on add button or drag and drop the image to the right
+---------------------------------------------------------------------------------------
+.. image:: _static/step07.png
+
+8. Image is added to the product
+-----------------------------------
+.. image:: _static/step08.png
+
+9. Similarly markets, related products can be added via relationship
+-----------------------------------------------------------------------
+.. image:: _static/step09.png
+
+10. Your Single Article
+-------------------------
+.. image:: _static/step10.png
