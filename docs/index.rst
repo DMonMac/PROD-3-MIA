@@ -5,17 +5,13 @@
 
 
 
-PROD-3
-======
+PROD-3: Manage Individual Articles
+==================================
+The Individual Articles are called as 'Single Article' in the system. This 'Single Article' will only be a single item.
 
 .. toctree::
    :name: mastertoc
    :caption: CONTENTS
-
-
-Manage Individual Articles
-==========================
-The Individual Articles are called as 'Single Article' in the system. This 'Single Article' will only be a single item.
 
 1. Click the `ALL` icon on the upper-left section of the navbar
 ---------------------------------------------------------------
