@@ -1,6 +1,0 @@
-Click the `ALL` icon on the upper-left section of the navbar
---------------------------------------------------------------
-
-The icon can be seen from the main page.
-
-.. image:: _static/step01.png
