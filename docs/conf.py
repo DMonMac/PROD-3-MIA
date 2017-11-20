@@ -87,9 +87,15 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 
-import sphinx_rtd_theme
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#import sphinx_rtd_theme
+#html_theme = "sphinx_rtd_theme"
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+import sphinxtrap
+extensions = ["sphinxtrap.ext.rawtoc"]
+html_theme = 'sphinxtrap'
+html_theme_path = [sphinxtrap.get_theme_dir()]
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
