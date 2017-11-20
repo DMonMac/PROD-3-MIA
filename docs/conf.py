@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# PROD-3: Manage Individual Articles documentation build configuration file, created by
-# sphinx-quickstart on Wed Nov 15 09:23:40 2017.
+# PROD-3:MIA documentation build configuration file, created by
+# sphinx-quickstart on Mon Nov 20 10:38:08 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -15,9 +15,6 @@
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-
-autodoc_mock_imports = ['sphinxtrap']
-
 #
 # import os
 # import sys
@@ -36,8 +33,7 @@ autodoc_mock_imports = ['sphinxtrap']
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages']
+    'sphinx.ext.viewcode']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -52,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'PROD-3: Manage Individual Articles'
+project = u'PROD-3:MIA'
 copyright = u'2017, ContentSphere'
 author = u'ContentSphere'
 
@@ -90,22 +86,16 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 
-#import sphinx_rtd_theme
-#html_theme = "sphinx_rtd_theme"
-#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
 import sphinxtrap
 extensions = ["sphinxtrap.ext.rawtoc"]
 html_theme = 'sphinxtrap'
 html_theme_path = [sphinxtrap.get_theme_dir()]
 
-
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
-}
+# html_theme_options = {}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -128,7 +118,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PROD-3ManageIndividualArticlesdoc'
+htmlhelp_basename = 'PROD-3MIAdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -155,7 +145,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PROD-3ManageIndividualArticles.tex', u'PROD-3: Manage Individual Articles Documentation',
+    (master_doc, 'PROD-3MIA.tex', u'PROD-3:MIA Documentation',
      u'ContentSphere', 'manual'),
 ]
 
@@ -165,7 +155,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'prod-3manageindividualarticles', u'PROD-3: Manage Individual Articles Documentation',
+    (master_doc, 'prod-3mia', u'PROD-3:MIA Documentation',
      [author], 1)
 ]
 
@@ -176,7 +166,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PROD-3ManageIndividualArticles', u'PROD-3: Manage Individual Articles Documentation',
-     author, 'PROD-3ManageIndividualArticles', 'One line description of project.',
+    (master_doc, 'PROD-3MIA', u'PROD-3:MIA Documentation',
+     author, 'PROD-3MIA', 'One line description of project.',
      'Miscellaneous'),
 ]

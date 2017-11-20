@@ -56,3 +56,11 @@ Once the `ALL` icon is clicked, there should be additional tabs below the navbar
 10. Your Single Article
 -----------------------
 .. image:: _static/step10.png
+
+
+.. Indices and tables
+.. ==================
+
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
