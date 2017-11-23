@@ -13,8 +13,6 @@ The Individual Articles are called as 'Single Article' in the system. This 'Sing
    :name: mastertoc
    :caption: CONTENTS
 
-   source/includeme
-
 1. Click the `ALL` icon on the upper-left section of the navbar
 ---------------------------------------------------------------
 The icon can be seen from the main page.
