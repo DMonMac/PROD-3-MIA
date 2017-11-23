@@ -92,7 +92,7 @@ todo_include_todos = False
 #html_theme_path = [sphinxtrap.get_theme_dir()]
 
 html_theme = "djangodocs"
-html_theme_path = ["."]
+html_theme_path = ["_theme"]
 
 
 # Theme options are theme-specific and customize the look and feel of a theme
