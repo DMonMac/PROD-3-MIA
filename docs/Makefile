@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = PROD-3MIA
 SOURCEDIR     = .
-BUILDDIR      = ../../buildfiles
+BUILDDIR      = ../../MIABuildfiles
 
 # Put it first so that "make" without argument is like "make help".
 help:
